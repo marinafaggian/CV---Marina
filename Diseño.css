@@ -1,0 +1,26 @@
+body{
+    margin: 0;
+    padding: 0;
+}
+.izquierda{
+    background: #028EA1;
+    height: 100vh;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    position: relative
+    left: 50px
+    top 50px
+}
+
+.celular{
+    position: relative;
+    left: 50px
+}
+
+.mail{
+    position: relative;
+    left: 50px;
+}
