@@ -1,26 +1,44 @@
-body{
+body {
     margin: 0;
     padding: 0;
 }
-.izquierda{
-    background: #028EA1;
+
+.derecha {
+    background: #E6E2C7;
+    width: 70%;
     height: 100vh;
 }
 
-img{
+.izquierda {
+    background: #BC383F;
+    width: 30%;
+    height: 100vh;
+    color:#E6E2C7
+}
+
+img {
     width: 200px;
     height: 200px;
-    position: relative;
-    left: 50px
-    top 50px
+    margin-top: 30px;
+    margin-left: 100px;
+    margin-bottom: 100px;
 }
 
-.celular{
+.celular {
     position: relative;
     left: 50px
 }
 
-.mail{
+.mail {
     position: relative;
     left: 50px;
+}
+
+.pantalla-dividida {
+    display: flex;
+}
+
+.titulo {
+    background-color: #7E262B;
+    color: #E6E2C7;
 }
