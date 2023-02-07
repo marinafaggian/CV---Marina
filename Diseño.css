@@ -1,8 +1,13 @@
-font-family: 'Roboto', sans-serif;
+
 
 body {
     margin: 0;
     padding: 0;
+    font-family: 'Jost', sans-serif;
+}
+
+.pantalla-dividida {
+    display: flex;
 }
 
 .derecha {
@@ -26,23 +31,9 @@ img {
     margin-bottom: 100px;
 }
 
-.celular {
-    position: relative;
-    left: 50px
-}
-
-.mail {
+.celular .mail{
     position: relative;
     left: 50px;
-}
-
-.pantalla-dividida {
-    display: flex;
-}
-
-.titulo {
-    background-color: #7E262B;
-    color: #E6E2C7;
 }
 
 i {
@@ -50,3 +41,9 @@ i {
     font-size: 20px;
     position left: 50px;
 }
+
+.titulo {
+    background-color: #7E262B;
+    color: #E6E2C7;
+}
+
