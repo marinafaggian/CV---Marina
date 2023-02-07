@@ -28,20 +28,31 @@ img {
     height: 200px;
     margin-top: 30px;
     margin-left: 100px;
-    margin-bottom: 100px;
+    margin-bottom: 20px;
 }
 
 .celular .mail{
     position: relative;
-    left: 50px;
+    left: 100px;
+    
 }
 
 i {
     color: #E6E2C7;
     font-size: 20px;
     position left: 50px;
+    margin: 0px 50px 0px 100px;
 }
 
+.email {
+    display: flex;
+    align-items: center;
+}
+
+.cel {
+    display: flex;
+    align-items: center;
+}
 .titulo {
     background-color: #7E262B;
     color: #E6E2C7;
