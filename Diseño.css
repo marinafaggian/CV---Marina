@@ -13,13 +13,11 @@ body {
 .derecha {
     background: #E6E2C7;
     width: 70%;
-    height: 100vh;
 }
 
 .izquierda {
     background: #BC383F;
     width: 30%;
-    height: 100vh;
     color:#E6E2C7
 }
 
@@ -29,29 +27,42 @@ img {
     margin-top: 30px;
     margin-left: 100px;
     margin-bottom: 20px;
+    border-radius: 50%;
 }
 
 .celular .mail{
     position: relative;
-    left: 100px;
-    
+    margin-left: 100px;
 }
 
-i {
-    color: #E6E2C7;
-    font-size: 20px;
-    position left: 50px;
-    margin: 0px 50px 0px 100px;
+.izquierda{
+    i {
+        color: #E6E2C7;
+        font-size: 20px;
+        margin: 0px 50px 0px 100px;
+    }
+}
+
+h1 {
+    text-align: center;
+    font-size: 350%;
+    color: #7E262B;
+}
+
+h3 {
+    text-indent: 30px;
 }
 
 .email {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 
 .cel {
     display: flex;
     align-items: center;
+    justify-content: center;
 }
 .titulo {
     background-color: #7E262B;
