@@ -30,23 +30,16 @@ img {
     border-radius: 50%;
 }
 
-.celular .mail{
-    position: relative;
-    margin-left: 100px;
-}
-
-.izquierda{
-    i {
-        color: #E6E2C7;
-        font-size: 20px;
-        margin: 0px 50px 0px 100px;
-    }
-}
-
 h1 {
     text-align: center;
     font-size: 350%;
     color: #7E262B;
+    font-family: 'Aboreto', cursive;
+}
+
+h4 {
+    position: relative;
+    margin-left: 50px;
 }
 
 h3 {
@@ -57,13 +50,18 @@ h3 {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-top: 0px;
+    margin-bottom: 0px;
 }
 
 .cel {
     display: flex;
     align-items: center;
     justify-content: center;
-}
+    margin-top: 0px;
+    margin-bottom: 0px;
+    }
+
 .titulo {
     background-color: #7E262B;
     color: #E6E2C7;
