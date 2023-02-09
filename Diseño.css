@@ -24,7 +24,7 @@ body {
 img {
     width: 200px;
     height: 200px;
-    margin-top: 0px;
+    margin-top: 20px;
     margin-left: 70px;
     margin-bottom: 20px;
     border-radius: 50%;
@@ -75,14 +75,10 @@ h3 {
 
 .fa-regular {
     display: flex;
-    color: #E6E2C7;
+    color: #BC383F;
     font-size: 20px;
     position: relative;
     margin-left: 20px;
-
-    #fa-circle-right{
-        position: right-top;
-    }
 }
 
 li { 
