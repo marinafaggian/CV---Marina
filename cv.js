@@ -1,13 +1,7 @@
 //intentando hacer que la flecha de despliegue funcione
 
-let listElements = document.querySelectorAll('.fa-circle-down');
+console.log("hola Mundo")
 
-listElements.forEach(listElement => {
-    listElement.addEventListener('click', ()=>{
-        
-        listElement.classList.toggle('arrow');
-        
-
-    })
-
-});
+document.getElementsByClassName('cabezal').onclick = function () {
+    console.log("hiciste click!")
+}

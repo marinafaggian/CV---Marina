@@ -72,6 +72,7 @@ h1 {
     position: relative;
     margin: 10px 0px 10px 0px;
     cursor: pointer;
+    overflow: hidden;
 }
 
 .sub-cabezal {
@@ -80,8 +81,7 @@ h1 {
     background-color: #7E262B;
     position: relative;
     margin: 15px 0px 15px 0px;
-    cursor: pointer;
-    
+    cursor: pointer;    
 }
 
 .titulo {
@@ -95,7 +95,6 @@ h1 {
     font-size: 20px;
     position: relative;
     margin-left: 20px;
-    cursor: pointer;
 }
 
 h5 {
@@ -112,12 +111,8 @@ p {
     margin: 5px 0px 5px 0px;
 }
 
-.contenedor-listas {
-    display: flex;
-}
 
 .lista{
-    transition: height .4s;
-    ;
+    display: none
 }
 
