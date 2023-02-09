@@ -77,7 +77,7 @@ h3 {
     display: flex;
     color: #BC383F;
     font-size: 20px;
-    position: fixed;
+    position: relative;
     margin-left: 20px;
 }
 
