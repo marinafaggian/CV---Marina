@@ -71,6 +71,7 @@ h1 {
     background-color: #7E262B;
     position: relative;
     margin: 10px 0px 10px 0px;
+    cursor: pointer;
 }
 
 .sub-cabezal {
@@ -79,6 +80,7 @@ h1 {
     background-color: #7E262B;
     position: relative;
     margin: 15px 0px 15px 0px;
+    cursor: pointer;
     
 }
 
@@ -87,7 +89,7 @@ h1 {
     color: #E6E2C7;
 }
 
-.fa-regular {
+.fa-circle-down {
     display: flex;
     color: #BC383F;
     font-size: 20px;
@@ -111,10 +113,11 @@ p {
 }
 
 .contenedor-listas {
-    display: none;
+    display: flex;
 }
 
 .lista{
     transition: height .4s;
-    height: 0px;
+    ;
 }
+
