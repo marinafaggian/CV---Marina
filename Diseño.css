@@ -39,7 +39,7 @@ h1 {
 
 h4 {
     position: relative;
-    margin-left: 50px;
+    margin: 10px 0px 10px 50px;
 }
 
 h3 {
@@ -117,3 +117,22 @@ li {
     margin: 10px 0px 10px 0px;
 }
 
+h5 {
+    padding: 10px 0px 10px 60px;
+    margin: 0px;
+}
+.coros {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 15px 0px 15px 0px;
+}
+
+.direccion {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 15px 0px 15px 0px;
+}
