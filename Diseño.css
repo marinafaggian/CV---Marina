@@ -144,3 +144,19 @@ h5 {
     position: relative;
     margin: 15px 0px 15px 0px;
 }
+
+.academica {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 15px 0px 15px 0px;
+}
+
+.cursos {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 15px 0px 15px 0px;
+}
