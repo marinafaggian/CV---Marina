@@ -136,3 +136,11 @@ h5 {
     position: relative;
     margin: 15px 0px 15px 0px;
 }
+
+.docencia {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 15px 0px 15px 0px;
+}
