@@ -43,23 +43,23 @@ h4 {
 }
 
 h3 {
-    text-indent: 30px;
+    text-indent: 60px;
 }
 
 .email {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 100px;   
 }
 
 .cel {
     display: flex;
     align-items: center;
-    justify-content: center;
     margin-top: 0px;
     margin-bottom: 0px;
+    margin-left: 100px;
     }
 
 .titulo {
@@ -75,6 +75,40 @@ h3 {
 
 .fa-regular {
     display: flex;
-    color:#E6E2C7;
+    color: #BC383F;
     font-size: 20px;
+    position: fixed;
+    margin-left: 20px;
+}
+
+.resumen {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.experiencia {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.formacion {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.informacion {
+    display: flex;
+    align-items: center;
+    background-color: #7E262B;
+    position: relative;
+    margin: 10px 0px 10px 0px;
 }
