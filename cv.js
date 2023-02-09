@@ -2,6 +2,4 @@
 
 console.log("hola Mundo")
 
-document.getElementsByClassName('cabezal').onclick = function () {
-    console.log("hiciste click!")
-}
+<i type="button" onclick= document.getElementsByClassName('listas').style.display='none">

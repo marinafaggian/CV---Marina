@@ -69,10 +69,20 @@ h1 {
     display: flex;
     align-items: center;
     background-color: #7E262B;
+    border: 0px;
+    position: relative;
+    margin: 10px 0px 10px 0px;
+}
+
+.cabezal-boton {
+    display: flex;
+    align-items: center;
+    width: 100%;
+    background-color: #7E262B;
+    border: 0px;
     position: relative;
     margin: 10px 0px 10px 0px;
     cursor: pointer;
-    overflow: hidden;
 }
 
 .sub-cabezal {
@@ -111,8 +121,4 @@ p {
     margin: 5px 0px 5px 0px;
 }
 
-
-.lista{
-    display: none
-}
 
