@@ -2,4 +2,8 @@
 
 console.log("hola Mundo")
 
-<i type="button" onclick= document.getElementsByClassName('listas').style.display='none">
+function function() {
+    let element = document.getElementById("lista1")
+    element.classList.toggle("evento-style");
+}
+
