@@ -129,18 +129,22 @@ p {
 
 
 .contenedor-seccion-experiencia {
-    max-height: 570px;
+    max-height: 0px;
     overflow: hidden;
     transition: max-height 600ms ease-in-out;
 }
 
-.lista-coreuta {
+.height-Exp {
+    max-height: 570px;
+}
+
+.lista {
     max-height: 110px;
     overflow: hidden;
     transition: max-height 600ms ease-in-out;
 }
 
-.height-0 {
-    max-height: 0;
+.height-lista {
+    max-height: 0px;
 }
 
