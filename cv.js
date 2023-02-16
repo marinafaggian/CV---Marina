@@ -56,5 +56,12 @@ window.addEventListener("load", () => {
         contCursos.classList.toggle("height-lista")
     });
 
+    const contInfoad = document.querySelector(".contenedor-seccion-infoad");
+    console.log(contInfoad);
+    const botonInfoad = document.querySelector(".cabezal-boton.infoad");
+    console.log(botonInfoad);
+    botonInfoad.addEventListener("click", () => {
+        contInfoad.classList.toggle("height-Infoad")
+    });
     
 });
