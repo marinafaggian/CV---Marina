@@ -32,7 +32,29 @@ window.addEventListener("load", () => {
         contDocente.classList.toggle("height-lista")
     });
 
+    const contFormacion = document.querySelector(".contenedor-seccion-formacion");
+    console.log(contFormacion);
+    const botonFormacion = document.querySelector(".cabezal-boton.formacion");
+    console.log(botonFormacion);
+    botonFormacion.addEventListener("click", () => {
+        contFormacion.classList.toggle("height-Form")
+    });
+
+    const contAcademica = document.querySelector(".lista.academica");
+    console.log(contAcademica);
+    const botonAcademica = document.querySelector(".sub-cabezal.academica");
+    console.log(botonAcademica);
+    botonAcademica.addEventListener("click", () => {
+        contAcademica.classList.toggle("height-lista")
+    });
+
+    const contCursos = document.querySelector(".lista.cursos");
+    console.log(contCursos);
+    const botonCursos = document.querySelector(".sub-cabezal.cursos");
+    console.log(botonCursos);
+    botonCursos.addEventListener("click", () => {
+        contCursos.classList.toggle("height-lista")
+    });
+
+    
 });
-
-
-
