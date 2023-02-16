@@ -134,9 +134,13 @@ p {
     transition: max-height 600ms ease-in-out;
 }
 
+.lista-coreuta {
+    max-height: 110px;
+    overflow: hidden;
+    transition: max-height 600ms ease-in-out;
+}
 
 .height-0 {
     max-height: 0;
 }
-
 
