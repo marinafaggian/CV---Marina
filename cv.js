@@ -5,8 +5,10 @@ window.addEventListener("load", () => {
     console.log(botonExperiencia);
     botonExperiencia.addEventListener("click", () => {
         contExperiencia.classList.toggle("height-Exp")
+    //botonExperiencia.addEventListener("click", () =>{
+      //  contExperiencia.classList.toggle("fa-regular.fa-circle-down.transition")
+       // });
     });
-
 
     const contCoreuta = document.querySelector(".lista.coreuta");
     console.log(contCoreuta);
