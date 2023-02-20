@@ -1,4 +1,23 @@
 window.addEventListener("load", () => {
+   
+    const contLateralizq = document.querySelector(".izquierda")
+    console.log(contLateralizq);
+    const botonLateral = document.querySelector(".fa-solid.fa-arrow-right-arrow-left")
+    console.log(botonLateral);
+    botonLateral.addEventListener("click", () => {
+        contLateralizq.classList.toggle("lateral")
+    });
+
+    const contLateralder = document.querySelector(".derecha")
+    console.log(contLateralder);
+    const botonLateralder = document.querySelector(".fa-solid.fa-arrow-right-arrow-left")
+    console.log(botonLateralder);
+    botonLateralder.addEventListener("click", () => {
+        contLateralder.classList.toggle("lateralder")
+    })
+    
+   
+   
     const contExperiencia = document.querySelector(".contenedor-seccion-experiencia");
     console.log(contExperiencia);
     const botonExperiencia = document.querySelector(".cabezal-boton.experiencia");

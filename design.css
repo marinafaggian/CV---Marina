@@ -18,7 +18,16 @@ body {
 .izquierda {
     background: #BC383F;
     width: 30%;
-    color:#E6E2C7
+    color:#E6E2C7;
+    overflow: hidden;
+}
+
+.lateral {
+    width: 0px;
+}
+
+.lateralder {
+    width: 100%;
 }
 
 /* Acá comienzan los estilos del lado izquierdo de la pantalla */
@@ -48,6 +57,10 @@ h3 {
     cursor: pointer;
 }
 
+.fa-arrow-right-arrow-left {
+    color:#7E262B;
+}
+
 .informacion {
     display: flex;
     align-items: center;
@@ -55,6 +68,7 @@ h3 {
     margin-bottom: 0px;
     margin-left: 70px;   
 }
+
 
 /*Acá comienzan los estilos del lado derecho de la pantalla*/
 
@@ -170,6 +184,7 @@ p {
 .transition {
     transform: rotate(180deg);
 }
+
 
 
 
