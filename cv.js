@@ -14,10 +14,9 @@ window.addEventListener("load", () => {
     console.log(botonLateralder);
     botonLateralder.addEventListener("click", () => {
         contLateralder.classList.toggle("lateralder")
-    })
+    });
     
-   
-   
+      
     const contExperiencia = document.querySelector(".contenedor-seccion-experiencia");
     console.log(contExperiencia);
     const botonExperiencia = document.querySelector(".cabezal-boton.experiencia");
