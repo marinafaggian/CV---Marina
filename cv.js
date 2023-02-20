@@ -1,5 +1,5 @@
 window.addEventListener("load", () => {
-   
+    //movimiento sección lateral
     const contLateralizq = document.querySelector(".izquierda")
     console.log(contLateralizq);
     const botonLateral = document.querySelector(".fa-solid.fa-arrow-right-arrow-left")
@@ -16,6 +16,7 @@ window.addEventListener("load", () => {
         contLateralder.classList.toggle("lateralder")
     });
 
+    //Botones de secciones
     const contExperiencia = document.querySelector(".contenedor-seccion-experiencia");
     console.log(contExperiencia);
     const botonExperiencia = document.querySelector(".cabezal-boton.experiencia");
