@@ -22,6 +22,12 @@ window.addEventListener("load", () => {
     botonCoreuta.addEventListener("click", () => {
         contCoreuta.classList.toggle("height-lista")
     });
+
+    const botonFlechaCoreuta = document.querySelector(".fa-regular.fa-circle-down.coreuta")
+    console.log(botonFlechaCoreuta)
+    botonFlechaCoreuta.addEventListener("click", () => {
+        botonFlechaCoreuta.classList.toggle("transition")
+    });
     
     const contDirectora = document.querySelector(".lista.directora");
     console.log(contDirectora);
@@ -29,6 +35,12 @@ window.addEventListener("load", () => {
     console.log(botonDirectora);
     botonDirectora.addEventListener("click", () => {
         contDirectora.classList.toggle("height-lista")
+    });
+
+    const botonFlechaDirectora = document.querySelector(".fa-regular.fa-circle-down.directora")
+    console.log(botonFlechaDirectora)
+    botonFlechaDirectora.addEventListener("click", () => {
+        botonFlechaDirectora.classList.toggle("transition")
     });
 
     const contDocente = document.querySelector(".lista.docente");
@@ -39,12 +51,24 @@ window.addEventListener("load", () => {
         contDocente.classList.toggle("height-lista")
     });
 
+    const botonFlechaDocente = document.querySelector(".fa-regular.fa-circle-down.docente")
+    console.log(botonFlechaDocente)
+    botonFlechaDocente.addEventListener("click", () => {
+        botonFlechaDocente.classList.toggle("transition")
+    });
+
     const contFormacion = document.querySelector(".contenedor-seccion-formacion");
     console.log(contFormacion);
     const botonFormacion = document.querySelector(".cabezal-boton.formacion");
     console.log(botonFormacion);
     botonFormacion.addEventListener("click", () => {
         contFormacion.classList.toggle("height-Form")
+    });
+
+    const botonFlechaFormacion = document.querySelector(".fa-regular.fa-circle-down.formacion")
+    console.log(botonFlechaFormacion)
+    botonFlechaFormacion.addEventListener("click", () => {
+        botonFlechaFormacion.classList.toggle("transition")
     });
 
     const contAcademica = document.querySelector(".lista.academica");
@@ -55,12 +79,24 @@ window.addEventListener("load", () => {
         contAcademica.classList.toggle("height-lista")
     });
 
+    const botonFlechaAcademica = document.querySelector(".fa-regular.fa-circle-down.academica")
+    console.log(botonFlechaAcademica)
+    botonFlechaAcademica.addEventListener("click", () => {
+        botonFlechaAcademica.classList.toggle("transition")
+    });
+
     const contCursos = document.querySelector(".lista.cursos");
     console.log(contCursos);
     const botonCursos = document.querySelector(".sub-cabezal.cursos");
     console.log(botonCursos);
     botonCursos.addEventListener("click", () => {
         contCursos.classList.toggle("height-lista")
+    });
+
+    const botonFlechaCursos = document.querySelector(".fa-regular.fa-circle-down.cursos")
+    console.log(botonFlechaCursos)
+    botonFlechaCursos.addEventListener("click", () => {
+        botonFlechaCursos.classList.toggle("transition")
     });
 
     const contInfoad = document.querySelector(".contenedor-seccion-infoad");
@@ -71,4 +107,9 @@ window.addEventListener("load", () => {
         contInfoad.classList.toggle("height-Infoad")
     });
     
+    const botonFlechaInfoad = document.querySelector(".fa-regular.fa-circle-down.infoad")
+    console.log(botonFlechaInfoad)
+    botonFlechaInfoad.addEventListener("click", () => {
+        botonFlechaInfoad.classList.toggle("transition")
+    });
 });
