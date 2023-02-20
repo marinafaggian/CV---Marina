@@ -167,7 +167,7 @@ p {
     max-height: 0px;
 }
 
-/*.fa-regular.fa-circle-down.transition {
+.transition {
     transform: rotate(180deg);
 }
 
